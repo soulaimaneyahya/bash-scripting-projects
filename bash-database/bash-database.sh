@@ -9,3 +9,7 @@ db_set () {
 db_get () {
     grep "^$1," database | sed -e "s/^$1,//" | tail -n 1
 }
+
+db_rm () {
+    grep -v "^$1," database > database.tmp && mv database.tmp database
+}

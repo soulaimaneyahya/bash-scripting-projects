@@ -10,4 +10,5 @@ source bash-database.sh
 
 db_set username soulaimaneyahya
 db_get username
+db_rm username
 ```
