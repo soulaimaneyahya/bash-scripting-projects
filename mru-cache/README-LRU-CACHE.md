@@ -1,5 +1,7 @@
 # mru-cache.sh
 
+## !rarely-used
+
 MRU (Most Recently Used):
 Cache policy that removes // Evicts the *most recently accessed* item when space is full.
 

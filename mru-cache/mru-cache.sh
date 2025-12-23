@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# !rarely-used
+
 # chmod +x mru-cache.sh
 # format: key,value (ordered by recency; bottom = most recent)
 
